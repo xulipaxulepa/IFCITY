@@ -1,27 +1,33 @@
 .navbar-default {
-  background-color: #CCCCCC;
-  border-color: #000000;
-  width: 90%;
-  left: 5%;
-   align-items: center;
-   box-shadow: 3px 10px 44px 4px rgba(0,0,0,0.73);;
+  background-color: #3F51B5;
+  border-color: #166127;
+  align-content: center;
+  align-items: center;
+  
+}
+
+#menu ul{
+    position: relative;
+    left: 50%;
 }
 .navbar-default .navbar-brand {
-  color: #000000;
+  color: #ffffff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: #d0f859;
 }
 .navbar-default .navbar-text {
   color: #ffffff;
+  align-content: center;
+  align-items: center;
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #d0f859;
+  color: #000000;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -61,7 +67,7 @@
     color: #ffffff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-default  .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #d0f859;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -72,38 +78,13 @@
   }
 }
 
-body{
-    background-image: url("http://i26.photobucket.com/albums/c135/xulipaxulepa/como-estudar-sozinho-oab-e1454678402550.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%; 
-}
-h2{
-    color: #ffffff;
-}
-.table{
-    background-color: #ffffff;
-}
-
 footer {
   position: fixed;
   height: 50px;
   bottom: 0;
   width: 100%;
-  background-color: #CCCCCC;
+  background-color: #dedede;
   text-align: center;
   padding-top: 10px;
   font-weight: bold;
-}
-
-.btn-primary{
-    background-color: #999999;
-    border-color: #000000;
-}
-
-.btn-secondary{
-    border-color: #000000;
-}
-.btn-success{
-    border-color: #000000;
 }
