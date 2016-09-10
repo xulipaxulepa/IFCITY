@@ -1,3 +1,4 @@
+</body>
 <footer class="footer">
         <p class="text-muted">Todos os direitos reservados a Xulipa SoftWorks.</p>
 </footer>
@@ -11,5 +12,5 @@
 
 <!-- App Script -->
 <script src="<?php echo base_url('lib/script/script_app.js') ?>" type="text/javascript"></script>
-</body>
+
 </html>

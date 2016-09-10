@@ -9,14 +9,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url(""); ?>"><img src="http://127.0.0.1/IFCITY/Imagens/logoif-city-pqno.png" width="60%"></a>
+            <a class="navbar-brand" href="<?php echo base_url(""); ?>">Desenvolvedores de jogos IFNMG</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav" >
-                <li><a href="<?php echo base_url("Participantes/index"); ?>">Participantes </a></li>                
-                <li><a href="<?php echo base_url(""); ?>">Projeto</a></li>
+                <li><a href="<?php echo base_url("Desenvolvedores/index"); ?>">Desenvolvedores </a></li>                
+                <li><a href="<?php echo base_url(""); ?>">Projetos</a></li>
                 <li><a href="<?php echo base_url(""); ?>">Premiações & Publicações</a></li>
                 <li><a href="<?php echo base_url(""); ?>">Bate Papo Tecnológico</a></li>
             </ul>

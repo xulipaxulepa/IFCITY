@@ -1,16 +1,15 @@
 .navbar-default {
-  background-color: #3F51B5;
-  border-color: #166127;
-  align-content: center;
-  align-items: center;
-  
+    background-color: #3F51B5;
+    border-color: #166127;
+    align-content: center;
+    align-items: center;
+
 }
 
 #participantes {
     background-color: #dedede;
     border: dotted;
     border-color: #000000;
-    
 }
 
 #nomeparticipante{
@@ -19,87 +18,99 @@
 
 #imagem{
     z-index: -1;
+    
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 #menu ul{
     position: relative;
-    left: 40%;
+    left: 30%;
 }
 .navbar-default .navbar-brand {
-  color: #ffffff;
+    color: #ffffff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #d0f859;
+    color: #000000;
 }
 .navbar-default .navbar-text {
-  color: #ffffff;
-  align-content: center;
-  align-items: center;
+    color: #ffffff;
+    align-content: center;
+    align-items: center;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+    color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
+    color: #000000;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #d0f859;
-  background-color: #166127;
+    color: #d0f859;
+    background-color: #166127;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #d0f859;
-  background-color: #166127;
+    color: #d0f859;
+    background-color: #166127;
 }
 .navbar-default .navbar-toggle {
-  border-color: #166127;
+    border-color: #166127;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #166127;
+    background-color: #166127;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ffffff;
+    border-color: #ffffff;
 }
 .navbar-default .navbar-link {
-  color: #ffffff;
+    color: #ffffff;
 }
 .navbar-default .navbar-link:hover {
-  color: #d0f859;
+    color: #d0f859;
 }
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default  .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #d0f859;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #d0f859;
-    background-color: #166127;
-  }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default  .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #d0f859;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #d0f859;
+        background-color: #166127;
+    }
+}
+
+body{
+    background-image: url("http://127.0.0.1/DJIFNMG/Imagens/planofundo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 footer {
-  position: fixed;
-  height: 50px;
-  bottom: 0;
-  width: 100%;
-  background-color: #dedede;
-  text-align: center;
-  padding-top: 10px;
-  font-weight: bold;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #dedede;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
 }
