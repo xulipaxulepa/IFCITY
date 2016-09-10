@@ -1,8 +1,7 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Inicio extends CI_Controller {
+class Participantes extends CI_Controller {
 
     function __construct() {
         parent:: __construct();
@@ -15,7 +14,7 @@ class Inicio extends CI_Controller {
     public function index() {
         $dados = array(
             'titulo' => 'IFCITY',
-            'tela' => 'paginasStaticas/inicio',
+            'tela' => 'paginasStaticas/Participantes',
         );
         $this->load->view("exibirDados", $dados);
     }

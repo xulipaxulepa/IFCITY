@@ -15,7 +15,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav" >
-                <li><a href="<?php echo base_url(""); ?>">Participantes </a></li>                
+                <li><a href="<?php echo base_url("Participantes/index"); ?>">Participantes </a></li>                
                 <li><a href="<?php echo base_url(""); ?>">Projeto</a></li>
                 <li><a href="<?php echo base_url(""); ?>">Premiações & Publicações</a></li>
                 <li><a href="<?php echo base_url(""); ?>">Bate Papo Tecnológico</a></li>

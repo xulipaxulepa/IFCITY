@@ -6,6 +6,21 @@
   
 }
 
+#participantes {
+    background-color: #dedede;
+    border: dotted;
+    border-color: #000000;
+    
+}
+
+#nomeparticipante{
+    z-index: 1;
+}
+
+#imagem{
+    z-index: -1;
+}
+
 #menu ul{
     position: relative;
     left: 40%;
