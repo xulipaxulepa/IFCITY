@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url(""); ?>">IFCITY</a>
+            <a class="navbar-brand" href="<?php echo base_url(""); ?>"><img src="http://127.0.0.1/IFCITY/Imagens/logoif-city-pqno.png" width="60%"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
