@@ -10,6 +10,7 @@
     background-color: #dedede;
     border: dotted;
     border-color: #000000;
+    box-shadow: 3px 10px 44px 4px rgba(0,0,0,0.73);
 }
 
 #nomeparticipante{
@@ -98,7 +99,7 @@
 }
 
 body{
-    background-image: url("http://127.0.0.1/DJIFNMG/Imagens/planofundo.png");
+    background-image: url("http://127.0.0.1/DJIFNMG/Imagens/bg.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
