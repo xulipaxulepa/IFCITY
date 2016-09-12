@@ -1,16 +1,32 @@
 .navbar-default {
     background-color: #3F51B5;
-    border-color: #166127;
+    border-color: #2b387c;
     align-content: center;
     align-items: center;
 
 }
 
+#premiacoes{
+    background-color: #ffffff;
+    border:  solid;
+    border-color: #000000;
+    border-radius: 25px;
+    box-shadow: 3px 10px 44px 4px rgba(0,0,0,0.73);
+}
+
+#projetos{
+    background-color: #ffffff;
+    border:  solid;
+    border-color: #000000;
+    border-radius: 25px;
+}
+
 #participantes {
     background-color: #dedede;
-    border: dotted;
+    border:  solid;
     border-color: #000000;
     box-shadow: 3px 10px 44px 4px rgba(0,0,0,0.73);
+    border-radius: 25px;    
 }
 
 #nomeparticipante{
@@ -19,7 +35,7 @@
 
 #imagem{
     z-index: -1;
-    
+
 }
 
 .img-circle {

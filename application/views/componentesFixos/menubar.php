@@ -16,8 +16,8 @@
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav" >
                 <li><a href="<?php echo base_url("Desenvolvedores/index"); ?>">Desenvolvedores </a></li>                
-                <li><a href="<?php echo base_url(""); ?>">Projetos</a></li>
-                <li><a href="<?php echo base_url(""); ?>">Premiações & Publicações</a></li>
+                <li><a href="<?php echo base_url("Projetos/index"); ?>">Projetos</a></li>
+                <li><a href="<?php echo base_url("Premiacoes/index"); ?>">Premiações & Publicações</a></li>
                 <li><a href="<?php echo base_url(""); ?>">Bate Papo Tecnológico</a></li>
             </ul>
             
